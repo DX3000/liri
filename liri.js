@@ -13,7 +13,7 @@ let tweet_limit = 40;
 let commandObj = {
     command: process.argv[2],
     name: process.argv[3]
-};
+}; 
 doCommand();
 
 function doCommand() {
